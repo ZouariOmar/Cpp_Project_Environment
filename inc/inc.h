@@ -19,28 +19,28 @@
 
 //? ------------------------------ COLORS PROTOTYPE DECLARATION PART ------------------------------
 /*
-* TEXT COLORS
-** define COLOR "ANSI CODE"...
-* BACKGROUND COLORS
-** define bgCOLOR "ANSI CODE"...
-*/
+ * TEXT COLORS
+ ** define COLOR "ANSI CODE"...
+ * BACKGROUND COLORS
+ ** define bgCOLOR "ANSI CODE"...
+ */
 
 //? -------------------------------  MSG PROTOTYPE DECLARATION PART -------------------------------
 /*
-* ERROR_MSG
-** define errorMsgXX...
-* SUCCESS_MSG
-** define successMsgXX...
-*/
+ * ERROR_MSG
+ ** define errorMsgXX...
+ * SUCCESS_MSG
+ ** define successMsgXX...
+ */
 
 //? ------------------------------ STRUCT PROTOTYPE DECLARATION PART ------------------------------
 /*
-* struct...
-*/
+ * struct...
+ */
 
 //? ----------------------------- FUNCTIONS PROTOTYPE DECLARATION PART -----------------------------
 /*
-* func...
-*/
+ * func...
+ */
 
 #endif

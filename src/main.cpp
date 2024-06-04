@@ -11,7 +11,8 @@
 using namespace std;
 
 // ? --------------------------------- MAIN() INT FUNCTION DEV PART ---------------------------------
-int main(int argc, char const *argv[]) {
+int main(int argc, char const *argv[])
+{
     // * principal vars declaration part
     // her...
 
