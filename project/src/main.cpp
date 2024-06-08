@@ -11,12 +11,11 @@
 #include "lib.cpp"
 
 // ? --------------------------------- MAIN() INT FUNCTION DEV PART ---------------------------------
-int main(int argc, char const *argv[])
-{
-    // * principal vars declaration part
-    // her...
+int main(int argc, char const *argv[]) {
+  // * principal vars declaration part
+  // her...
 
-    cout << "Hello World !" << endl;
+  cout << "Hello World !" << endl;
 
-    return 0;
+  return 0;
 }

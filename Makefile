@@ -1,5 +1,5 @@
 # --------------------------------------------------------
-# ? @file      main.c
+# ? @file      Makefile
 # ? @author    @ZouariOmar (zouariomar20@gmail.com)
 # ? @brief     IDE__VSC
 # ? @version   0.1
