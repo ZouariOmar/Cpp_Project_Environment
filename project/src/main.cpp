@@ -7,12 +7,12 @@
  * @copyright Copyright (c) 2024
  ***************************************************/
 
-// ? ------------------------------ INCLUDE PROTOTYPE DECLARATION PART ------------------------------
+//? ------------------------------ INCLUDE PROTOTYPE DECLARATION PART ------------------------------
 #include "lib.cpp"
 
-// ? --------------------------------- MAIN() INT FUNCTION DEV PART ---------------------------------
+//? --------------------------------- MAIN() INT FUNCTION DEV PART ---------------------------------
 int main(int argc, char const *argv[]) {
-  // * principal vars declaration part
+  //* principal vars declaration part
   // her...
 
   cout << "Hello World !" << endl;

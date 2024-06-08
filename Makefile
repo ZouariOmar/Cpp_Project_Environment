@@ -17,7 +17,7 @@ CFLAGS = -Wall -Wextra -std=c99 -lm -lSDL -lSDL_image -lSDL_gfx -lSDL_ttf -lSDL_
 SRC_DIR = project/src/main.cpp
 
 #* Define the output directory
-OUT_DIR = bin/debug
+OUT_DIR = bin/build
 
 #* Define the objects directory
 OBJ_DIR = bin/obj

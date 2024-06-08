@@ -11,38 +11,42 @@ This template provides a basic structure for starting a new C++ project. It incl
 ```plaintext
 .Run_C++_Project
 ├── bin
-│   ├── debug
-│   │   └── app
-│   ├── obj
-│   │   ├── main.o
-│   │   └── obj.o
-│   ├── release
-│   │   └── release
-│   └── test
-│       └── test
-├── conf
-│   └── github
+│   ├── build
+│   ├── debug
+│   │   └── app
+│   ├── obj
+│   │   ├── main.o
+│   │   └── obj.o
+│   ├── release
+│   │   └── release
+│   └── test
+│       └── test
 ├── doc
-│   ├── notes.txt
-│   └── pdf
-│       └── NONE.pdf
+│   ├── notes.txt
+│   └── pdf
+│       └── NONE.pdf
 ├── download
-│   └── down
+│   └── down
+├── github
 ├── LICENSE
 ├── Makefile
 ├── pkg
-│   ├── install_C_Package.cmd
-│   └── install_C_Package.sh
+│   ├── install_C_Package.cmd
+│   └── install_C_Package.sh
 ├── project
-│   ├── inc
-│   │   └── inc.h
-│   └── src
-│       ├── lib.cpp
-│       └── main.cpp
+│   ├── doc
+│   │   └── NONE
+│   ├── inc
+│   │   └── inc.hpp
+│   ├── res
+│   │   └── NONE
+│   └── src
+│       ├── lib.cpp
+│       └── main.cpp
 ├── README.md
 └── Run_C++_Project.code-workspace
 
-15 directories, 17 files
+17 directories, 19 files
 ```
 
 ## How to Use (**Installation**)

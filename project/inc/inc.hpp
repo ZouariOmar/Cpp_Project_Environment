@@ -1,5 +1,5 @@
 /***************************************************
- * @file      inc.h
+ * @file      inc.hpp
  * @author    @ZouariOmar (zouariomar20@gmail.com)
  * @brief     IDE__VSC
  * @version   0.1
@@ -11,15 +11,15 @@
 #define __INC_H__
 
 //? ----------------------------- INCLUDE PROTOTYPE DECLARATION PART -----------------------------
-// * include std libs
+//* include std libs
 #include <iostream>
 
-// * use the stander workspace
+//* use the stander workspace
 using namespace std;
 
 /*
-#include <nameOfLib.h>   || #include "nameOfLib.h"
 #include <nameOfLib.c>   || #include "nameOfLib.c"
+#include <nameOfLib.h>   || #include "nameOfLib.h"
 */
 
 //? ------------------------------ COLORS PROTOTYPE DECLARATION PART ------------------------------
