@@ -1,55 +1,52 @@
-# Run C++ Project
+# Normal C++ Project Environment
 
-**A simple template for starting a new C++ project.**
+**A simple template for starting a complex Normal C++ Project.**
 
 ## Overview
 
-This template provides a basic structure for starting a new C++ project. It includes essential directories and files to help you organize your code and easily get started with development.
+This template provides a basic structure for starting a complex Normal C++ Project. It includes essential directories and files to help you organize your code and easily get started with development.
 
 ## Project Structure
 
 ```plaintext
-.Run_C++_Project
+.Normal C++ Project Environment
 ├── bin
-│   ├── build
 │   ├── debug
-│   │   └── app
-│   ├── obj
-│   │   ├── main.o
-│   │   └── obj.o
+│   │   └── debug
+│   ├── out
+│   │   └── out
 │   ├── release
 │   │   └── release
 │   └── test
 │       └── test
 ├── doc
-│   ├── notes.txt
-│   └── pdf
-│       └── NONE.pdf
+│   ├── pdf
+│   │   └── NONE.pdf
+│   └── TODO.md
 ├── download
-│   └── down
-├── github
+│   └── download
 ├── LICENSE
-├── Makefile
 ├── pkg
-│   ├── install_C_Package.cmd
-│   └── install_C_Package.sh
+│   ├── C-Cpp_pkg.cmd
+│   └── C-Cpp_pkg.sh
 ├── project
 │   ├── doc
-│   │   └── NONE
+│   │   └── doc
 │   ├── inc
 │   │   └── inc.hpp
 │   ├── res
-│   │   └── NONE
+│   │   └── res
 │   └── src
 │       ├── lib.cpp
 │       └── main.cpp
+├── Quick C++ Project Environment.code-workspace
 ├── README.md
-└── Run_C++_Project.code-workspace
+└── run.sh
 
-17 directories, 19 files
+15 directories, 18 files
 ```
 
-## How to Use (**Installation**)
+## How to Use
 
 To lunch the project on your Linux system, follow these steps:
 
@@ -65,29 +62,13 @@ To lunch the project on your Linux system, follow these steps:
     cd Run_C++_Project
     ```
 
-3. **Build the Application**:
+3. **Build & Run the Application**:
 
     ```sh
-    make
+    sh run.sh
     ```
 
-4. **Run the Application**:
-
-    ```sh
-    ./bin/debug/app
-    ```
-
-## Contributing
-
-We welcome contributions from the community. If you wish to contribute, please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature-branch`).
-3. Commit your changes (`git commit -am 'Add new feature'`).
-4. Push to the branch (`git push origin feature-branch`).
-5. Create a new Pull Request.
-
-Please make sure your code adheres to our coding standards and includes appropriate tests.
+- **Note: if you are using VSC, you can't run your program using the "Code Runner" extension**
 
 ## License
 
