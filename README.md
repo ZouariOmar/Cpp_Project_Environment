@@ -1,20 +1,20 @@
 # Normal C++ Project Environment
 
-**A simple template for starting a complex Normal C++ Project.**
+**A simple template for starting a C++ Project.**
 
 ## Overview
 
-This template provides a basic structure for starting a complex Normal C++ Project. It includes essential directories and files to help you organize your code and easily get started with development.
+This template provides a basic structure for starting a C++ Project. It includes essential directories and files to help you organize your code and easily get started with development.
 
 ## Project Structure
 
 ```plaintext
-.Normal C++ Project Environment
+.Cpp_Project_Environment
 ├── bin
 │   ├── debug
 │   │   └── debug
-│   ├── out
-│   │   └── out
+│   ├── build
+│   │   └── build
 │   ├── release
 │   │   └── release
 │   └── test
@@ -39,7 +39,7 @@ This template provides a basic structure for starting a complex Normal C++ Proje
 │   └── src
 │       ├── lib.cpp
 │       └── main.cpp
-├── Quick C++ Project Environment.code-workspace
+├── Cpp_Project_Environment.code-workspace
 ├── README.md
 └── run.sh
 
@@ -62,10 +62,16 @@ To lunch the project on your Linux system, follow these steps:
     cd Run_C++_Project
     ```
 
-3. **Build & Run the Application**:
+3. **Make the script executable**:
 
     ```sh
-    sh run.sh
+    chmod +x run.sh
+    ```
+
+4. **Build & Run the Application**:
+
+    ```sh
+    ./run.sh <COMMAND>
     ```
 
 - **Note: if you are using VSC, you can't run your program using the "Code Runner" extension**
