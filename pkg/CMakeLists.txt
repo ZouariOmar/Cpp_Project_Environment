@@ -11,13 +11,13 @@ set(CMAKE_CXX_STANDARD 17)
 
 # Add the main window source files
 set(SOURCES
-  ../../project/src/main.cpp
-  ../../project/src/lib.cpp
+  ../project/src/main.cpp
+  ../project/src/lib.cpp
 )
 
 # Add the main window header files
 set(HEADERS
-  ../../project/inc/inc.hpp
+  ../project/inc/inc.hpp
 )
 
 # Add the executable target
