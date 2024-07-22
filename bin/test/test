@@ -1,0 +1,11 @@
+=== Use this cpp code inside a fn to test your code ===
+
+```cpp
+	int main(int argc, char const *argv[]) {
+	#ifndef __TEST__
+		freopen("../doc/input", "r", stdin);
+		freopen("../out/output", "w", stdout);
+	#endif
+		return 0;
+	}
+	```
