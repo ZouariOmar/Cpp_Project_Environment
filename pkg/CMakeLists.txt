@@ -1,6 +1,6 @@
-# ----------------------------------
-#! Put this file in the "pkg" file
-# ----------------------------------
+# -------------------------------
+#! Put this file in the "pkg" dir
+# -------------------------------
 
 # set the cmake min version (current - 3.29.3)
 cmake_minimum_required(VERSION 3.29.3)
@@ -16,6 +16,9 @@ set(SOURCES
   ../project/src/main.cpp
   ../project/src/lib.cpp
 )
+
+# Enable testing mode
+enable_testing()
 
 # Add the main window header files
 set(HEADERS

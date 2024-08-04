@@ -1,0 +1,51 @@
+/*****************************************************************************
+ * @file      test.cpp
+ * @author    @ZouariOmar (zouariomar20@gmail.com)
+ * @brief     IDE__VSC
+ * @version   0.1
+ * @date      dd-mm-yyyy
+ * @link      NONE
+ * @copyright Copyright (c) 2024
+ *****************************************************************************/
+
+//? ------------------------------ INCLUDE PROTOTYPE DECLARATION PART ------------------------------
+// Include the main google test header
+#include <gtest/gtest.h>
+
+// Include the tested declared functions
+#include "../../project/inc/inc.hpp"
+
+//? --------------------------------- MAIN() INT FUNCTION DEV PART ---------------------------------
+
+/**
+ * @brief ## The Main Testing Function
+ * *
+ * - Using the Google Test (gtest)
+ * @param argc
+ * @param argv
+ * @return int
+ */
+int main(int argc, char **argv) {
+  // Init test
+  testing::InitGoogleTest(&argc, argv);
+
+  return RUN_ALL_TESTS();
+}
+
+TEST(TestFn00, Test00) {
+  /*
+  Sub_test_00...
+  */
+}
+
+/**
+ * @brief ### Set the up io redirection function
+ * *
+ * - Test app using i/o files (for large i/o data)
+ */
+void setup_io_redirection() {
+#ifndef __TEST__
+  freopen("doc/input", "r", stdin);
+  freopen("out/output", "w", stdout);
+#endif
+}
