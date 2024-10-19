@@ -1,29 +1,17 @@
-/*****************************************************************************
- * @file      main.cpp
- * @author    @ZouariOmar (zouariomar20@gmail.com)
- * @brief     IDE__VSC
- * @version   0.1
- * @date      dd-mm-yyyy
- * @link      NONE
- * @copyright Copyright (c) 2024
- *****************************************************************************/
+//! Lance the Doxygen file comment Her (in VSC - `/** */`)
 
-//? ------------------------------ INCLUDE PROTOTYPE DECLARATION PART ------------------------------
-#include "../inc/inc.hpp"
+//? Include prototype declaration part
+#include "../inc/inc.hpp"  // #include "./inc/inc.h"
 
-//? --------------------------------- MAIN() INT FUNCTION DEV PART ---------------------------------
+//? Main int function prototype dev part
 
 /**
  * @brief # The Main Program Function
- *
- * @param argc
- * @param argv
+ * @param argc int
+ * @param argv char const **
  * @return int
  */
 int main(int argc, char const *argv[]) {
-  //* principal vars declaration part
-  // her...
-
   cout << "Hello World !" << endl;
 
   return 0;

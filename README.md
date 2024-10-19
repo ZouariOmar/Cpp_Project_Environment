@@ -1,49 +1,58 @@
-# Normal C++ Project Environment
+# Normal C/C++ Project Environment
 
-**A simple template for starting a C++ Project.**
+**A simple template for starting a C/C++ Project.**
 
 ## Overview
 
-This template provides a basic structure for starting a C++ Project. It includes essential directories and files to help you organize your code and easily get started with development.
+This template provides a basic structure for starting a C/C++ Project. It includes essential directories and files to help you organize your code and easily get started with development.
 
 ## Project Structure
 
 ```plaintext
-.Cpp_Project_Environment
+.C-CPP_Project_Env
 ├── bin
-│   ├── debug
-│   │   └── debug
-│   ├── build
-│   │   └── build
-│   ├── release
-│   │   └── release
-│   └── test
-│       └── test
+│   ├── build
+│   │   └── build
+│   ├── debug
+│   │   └── debug
+│   ├── release
+│   │   └── release
+│   └── test
+│       ├── doc
+│       │   ├── input
+│       │   └── output
+│       ├── test
+│       └── test.cpp
+├── C-CPP_Project_Env.code-workspace
+├── c_cpp_properties.json
 ├── doc
-│   ├── pdf
-│   │   └── NONE.pdf
-│   └── TODO.md
+│   ├── Doxyfile
+│   ├── pdf
+│   │   └── NONE.pdf
+│   └── TODO.md
 ├── download
-│   └── download
+│   └── NONE
 ├── LICENSE
 ├── pkg
-│   ├── C-Cpp_pkg.cmd
-│   └── C-Cpp_pkg.sh
+│   ├── C-Cpp_pkg.sh
+│   └── CMakeLists.txt
 ├── project
-│   ├── doc
-│   │   └── doc
-│   ├── inc
-│   │   └── inc.hpp
-│   ├── res
-│   │   └── res
-│   └── src
-│       ├── lib.cpp
-│       └── main.cpp
-├── Cpp_Project_Environment.code-workspace
+│   ├── doc
+│   │   └── doc
+│   ├── inc
+│   │   └── inc.hpp
+│   ├── res
+│   │   └── res
+│   └── src
+│       ├── lib.cpp
+│       └── main.cpp
 ├── README.md
-└── run.sh
+├── run.sh
+├── settings.json
+├── struct
+└── test.sh
 
-15 directories, 18 files
+16 directories, 26 files
 ```
 
 ## How to Use
@@ -53,13 +62,13 @@ To lunch the project on your Linux system, follow these steps:
 1. **Clone the Repository**:
 
     ```sh
-    git clone https://github.com/ZouariOmar/Run_C++_Project.git
+    git clone https://github.com/ZouariOmar/C-CPP_Project_Env.git
     ```
 
 2. **Navigate to the Directory**:
 
     ```sh
-    cd Run_C++_Project
+    cd C-CPP_Project_Env
     ```
 
 3. **Make the script executable**:

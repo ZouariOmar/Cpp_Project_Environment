@@ -5,4 +5,4 @@
 FLAGS='-lgtest -lgtest_main'
 
 # Build && run the test
-g++ test.cpp -o test ${FLAGS}
+cd bin/test && g++ test.cpp -o test ${FLAGS} && ./test

@@ -1,28 +1,20 @@
-/*****************************************************************************
- * @file      test.cpp
- * @author    @ZouariOmar (zouariomar20@gmail.com)
- * @brief     IDE__VSC
- * @version   0.1
- * @date      dd-mm-yyyy
- * @link      NONE
- * @copyright Copyright (c) 2024
- *****************************************************************************/
+//! Lance the Doxygen file comment Her (in VSC - `/** */`)
 
-//? ------------------------------ INCLUDE PROTOTYPE DECLARATION PART ------------------------------
+//? Include prototype declaration part
 // Include the main google test header
 #include <gtest/gtest.h>
 
 // Include the tested declared functions
 #include "../../project/inc/inc.hpp"
 
-//? --------------------------------- MAIN() INT FUNCTION DEV PART ---------------------------------
+//? Main int function prototype dev part
 
 /**
  * @brief ## The Main Testing Function
  * *
  * - Using the Google Test (gtest)
- * @param argc
- * @param argv
+ * @param argc int
+ * @param argv char **
  * @return int
  */
 int main(int argc, char **argv) {

@@ -7,8 +7,5 @@ if [ -z "$1" ]; then
   exit 1
 fi
 
-#* Use the first argument as the command
-COMMAND=$1
-
 #* clean & build & run the old excitable files
-cd bin/build && $COMMAND clean && $COMMAND && ./app
+cd bin/build && $1 clean && $1 && ./app

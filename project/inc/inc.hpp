@@ -1,30 +1,27 @@
-/*****************************************************************************
- * @file      inc.hpp
- * @author    @ZouariOmar (zouariomar20@gmail.com)
- * @brief     IDE__VSC
- * @version   0.1
- * @date      dd-mm-yyyy
- * @link      NONE
- * @copyright Copyright (c) 2024
- *****************************************************************************/
+//! Lance the Doxygen file comment Her (in VSC - `/** */`)
 
-#ifndef __INC_H__
-#define __INC_H__
+//? Pre-Processor prototype declaration part
+#ifndef __INC_HPP__  // Or __INC_H__
+#define __INC_HPP__  // Or __INC_H__
 
-//? ----------------------------- INCLUDE PROTOTYPE DECLARATION PART -----------------------------
+//? Include prototype declaration part
 
-// Include std libs
+//* Include std libs (c)
+#include <stdio.h>
+#include <stdlib.h>
+
+//* Include std libs (c++)
 #include <iostream>
 
-// Use the stander workspace
+//* Use stander workspace
 using namespace std;
 
 /*
-#include <nameOfLib.cpp>   || #include "nameOfLib.cpp"
-#include <nameOfLib.hpp>   || #include "nameOfLib.hpp"
-*/
+ * Include std libs (c)
+ * Include custom inc file (h/hpp)
+ */
 
-//? ------------------------------ COLORS PROTOTYPE DECLARATION PART ------------------------------
+//? CLI colors prototype declaration part
 /*
  * TEXT COLORS
  ** define COLOR "ANSI CODE"...
@@ -32,7 +29,7 @@ using namespace std;
  ** define bgCOLOR "ANSI CODE"...
  */
 
-//? -------------------------------  MSG PROTOTYPE DECLARATION PART -------------------------------
+//? Msg prototype declaration part
 /*
  * ERROR_MSG
  ** define errorMsgXX...
@@ -40,14 +37,19 @@ using namespace std;
  ** define successMsgXX...
  */
 
-//? ------------------------------ STRUCT PROTOTYPE DECLARATION PART ------------------------------
+//? Structure prototype declaration part
 /*
  * struct...
  */
 
-//? ------------------------- FUNCTIONS/CLASSES PROTOTYPE DECLARATION PART ------------------------
+//? Function prototype declaration part
 /*
  * func...
  */
 
-#endif
+//? Class prototype declaration part
+/*
+ * class...
+ */
+
+#endif  // __INC_HPP__Or __INC_H__

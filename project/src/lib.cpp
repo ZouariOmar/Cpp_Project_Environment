@@ -1,17 +1,10 @@
-/*****************************************************************************
- * @file      lib.cpp
- * @author    @ZouariOmar (zouariomar20@gmail.com)
- * @brief     IDE__VSC
- * @version   0.1
- * @date      dd-mm-yyyy
- * @link      NONE
- * @copyright Copyright (c) 2024
- *****************************************************************************/
+//! Lance the Doxygen file comment Her (in VSC - `/** */`)
 
-//? ------------------------------ INCLUDE PROTOTYPE DECLARATION PART ------------------------------
-#include "../inc/inc.hpp"
+//? Include prototype declaration part
+#include "../inc/inc.hpp"  // #include "../inc/inc.h"
 
-//? ----------------------------- FUNCTIONS/CLASSES PROTOTYPE DEV PART -----------------------------
+//? Function/Class prototype dev part
 /*
- * func...
+ * function() {...}
+ * class::function() {...}
  */
